@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: plamencode/hangman:latest
+          tags: plamencode/hangman:${{ github.run_number }}
